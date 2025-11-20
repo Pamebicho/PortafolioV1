@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/Person">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio - Pamela Andrea Gutiérrez Morales</title>
+    <meta
+      name="description"
+      content="Portafolio accesible e inclusivo de Pamela A. Gutiérrez: frontend y UX/UI. Proyectos, habilidades y contacto."
+    />
+    <meta name="author" content="Pamela Andrea Gutiérrez Morales" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://dominio.com" />
+    <link rel="icon" href="/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <a href="#contenido" class="skip-link visually-hidden-focusable"
+      >Saltar al contenido principal</a
+    >
+
+    <header
+      role="banner"
+      class="p-3 mb-0 text-center bg-white border-bottom border-success border-2"
+    >
+      <nav
+        class="navbar navbar-expand-lg bg-light rounded-pill mx-auto mb-3"
+        aria-label="Navegación principal"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand d-lg-none text-success fw-bold" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-2">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-success" href="#sobre-mi"
+                  >Sobre mí</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-success" href="#proyectos"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-success" href="#habilidades"
+                  >Habilidades</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-success" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1 itemprop="name" class="display-5 text-success-emphasis">
+        Pamela Andrea Gutiérrez Morales
+      </h1>
+      <p itemprop="jobTitle" class="fs-5 fw-medium text-success">
+        Ingeniería en Computación e Informática · Frontend &amp; UX/UI
+      </p>
+      <figure class="mt-4 d-flex flex-column align-items-center">
+        <picture>
+          <source srcset="assets/imgages/pame.webp" type="images/webp" />
+          <img
+            src="assets/images/pame.webp"
+            alt="Retrato de Pamela A. Gutiérrez sonriendo en un entorno de trabajo"
+            width="200"
+            height="200"
+            itemprop="image"
+            class="rounded-circle shadow-sm pame-img"
+          />
+        </picture>
+        <figcaption class="mt-2 text-success-emphasis small">
+          Compromiso con la accesibilidad (<abbr
+            title="Pautas de Accesibilidad para el Contenido Web"
+            >WCAG</abbr
+          >
+          2.1 AA) y el diseño centrado en las personas.
+        </figcaption>
+      </figure>
+    </header>
+
+    <main id="contenido" role="main" class="container my-4">
+      <section
+        id="sobre-mi"
+        aria-labelledby="t-sobre-mi"
+        class="p-4 mb-4 bg-white rounded shadow-sm"
+      >
+        <h2
+          id="t-sobre-mi"
+          class="border-start border-success border-5 ps-3 mb-4 text-success-emphasis"
+        >
+          Sobre mí
+        </h2>
+        <article itemprop="description">
+          <p class="lead">
+            Desarrolladora frontend con foco en usabilidad, rendimiento y
+            experiencia inclusiva. Actualmente impulsa el
+            <strong>Dashboard Educativo</strong> para el Liceo Bicentenario C.E.
+            Valle Hermoso (Peñalolén) y <strong>Locky</strong>, iniciativa de
+            alfabetización y seguridad digital para comunidades educativas.
+          </p>
+
+          <details class="mb-3">
+            <summary class="text-success fw-bold cursor-pointer">
+              Ver más información
+            </summary>
+            <p class="pt-2 ps-3">
+              Trabaja con metodologías ágiles (Scrum/Kanban) y buenas prácticas
+              de gestión (PMBOK). Intereses: arquitectura de información,
+              accesibilidad, documentación y sistemas de diseño.
+            </p>
+          </details>
+        </article>
+
+        <address
+          itemprop="address"
+          itemscope
+          itemtype="https://schema.org/PostalAddress"
+          class="text-muted"
+        >
+          <p class="mb-0">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span itemprop="addressLocality">Ñuñoa</span>,
+            <span itemprop="addressCountry">Chile</span><br />
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:tu-email@ejemplo.cl" itemprop="email"
+              >pame@gmail.com</a
+            ><br />
+            <i class="bi bi-telephone-fill"></i>
+            <a href="tel:+56 9 1234 5678" itemprop="telephone"
+              >+56 9 1234 5678</a
+            >
+          </p>
+        </address>
+      </section>
+
+      <section
+        id="proyectos"
+        aria-labelledby="t-proyectos"
+        class="p-4 mb-4 bg-white rounded shadow-sm"
+      >
+        <h2
+          id="t-proyectos"
+          class="border-start border-success border-5 ps-3 mb-4 text-success-emphasis"
+        >
+          Proyectos
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article
+              itemscope
+              itemtype="https://schema.org/CreativeWork"
+              aria-labelledby="p1-nombre"
+              class="card h-100 border-success"
+            >
+              <div class="card-body">
+                <h3
+                  id="p1-nombre"
+                  itemprop="name"
+                  class="card-title text-success-emphasis"
+                >
+                  Dashboard Educativo (Next.js)
+                </h3>
+                <p class="card-subtitle mb-2 text-muted small">
+                  <time datetime="2025-09" itemprop="dateCreated"
+                    >septiembre de 2025</time
+                  >
+                  · Rol: Frontend &amp; UX/UI
+                </p>
+                <p itemprop="description" class="card-text">
+                  Portal que centraliza información escolar y mejora la
+                  comunicación entre estudiantes, familias, docentes y equipos
+                  directivos.
+                </p>
+                <ul
+                  aria-label="Características del Dashboard Educativo"
+                  class="list-unstyled"
+                >
+                  <li>
+                    <i class="bi bi-check-circle-fill text-success"></i>
+                    Componentes accesibles y semánticos
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill text-success"></i>
+                    Visualizaciones informativas
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill text-success"></i>
+                    Estructura modular y escalable
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  itemprop="url"
+                  class="btn btn-success mt-2"
+                >
+                  <i class="bi bi-link-45deg"></i> Ver demo del proyecto
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article
+              itemscope
+              itemtype="https://schema.org/CreativeWork"
+              aria-labelledby="p2-nombre"
+              class="card h-100 border-success"
+            >
+              <div class="card-body">
+                <h3
+                  id="p2-nombre"
+                  itemprop="name"
+                  class="card-title text-success-emphasis"
+                >
+                  Locky — Alfabetización Digital
+                </h3>
+                <p class="card-subtitle mb-2 text-muted small">
+                  <time datetime="2025-06" itemprop="dateCreated"
+                    >junio de 2025</time
+                  >
+                  · Rol: Diseño &amp; Contenidos
+                </p>
+                <p itemprop="description" class="card-text">
+                  Programa con guías y talleres para un uso seguro y responsable
+                  de Internet en colegios.
+                </p>
+                <blockquote
+                  cite=""
+                  class="blockquote border-start border-success border-3 ps-3 fst-italic"
+                >
+                  <p class="mb-0">
+                    “La ciudadanía digital se aprende, se practica y se cuida
+                    entre todas las personas.”
+                  </p>
+                </blockquote>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  itemprop="url"
+                  class="btn btn-success mt-2"
+                >
+                  <i class="bi bi-link-45deg"></i> Ver proyecto Locky
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="habilidades"
+        aria-labelledby="t-habilidades"
+        class="p-4 mb-4 bg-white rounded shadow-sm"
+      >
+        <h2
+          id="t-habilidades"
+          class="border-start border-success border-5 ps-3 mb-4 text-success-emphasis"
+        >
+          Habilidades
+        </h2>
+
+        <ul class="list-group list-group-flush mb-4">
+          <li class="list-group-item">
+            <i class="bi bi-code-slash text-success"></i> HTML5 semántico y
+            accesibilidad
+          </li>
+          <li class="list-group-item">
+            <i class="bi bi-diagram-3-fill text-success"></i> Arquitectura de
+            información y diseño de contenidos
+          </li>
+          <li class="list-group-item">
+            <i class="bi bi-brush-fill text-success"></i> Prototipado en Figma y
+            sistemas de diseño
+          </li>
+        </ul>
+
+        <h3 class="fs-5 text-success-emphasis mt-4 mb-3">Nivel referencial</h3>
+        <div class="mb-3">
+          <label class="form-label">HTML5: 90%</label>
+          <meter class="w-100" min="0" max="100" value="90" optimum="100">
+            90%
+          </meter>
+        </div>
+        <div class="mb-3">
+          <label class="form-label"
+            >CSS (arquitectura de componentes): 80%</label
+          >
+          <meter class="w-100" min="0" max="100" value="80" optimum="100">
+            80%
+          </meter>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">JavaScript (frontend): 50%</label>
+          <meter class="w-100" min="0" max="100" value="50" optimum="100">
+            50%
+          </meter>
+        </div>
+
+        <div class="mt-4">
+          <label class="form-label">Progreso del portafolio: 40%</label>
+          <progress class="w-100" value="40" max="100">40%</progress>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        aria-labelledby="t-contacto"
+        class="p-4 mb-4 bg-white rounded shadow-sm"
+      >
+        <h2
+          id="t-contacto"
+          class="border-start border-success border-5 ps-3 mb-4 text-success-emphasis"
+        >
+          Contacto
+        </h2>
+
+        <!-- Formulario controlado por JS (sin mailto) -->
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre (requerido)</label>
+            <input id="nombre" type="text" class="form-control" />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label"
+              >Correo electrónico (requerido)</label
+            >
+            <input id="email" type="email" class="form-control" />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje (requerido)</label>
+            <textarea id="mensaje" class="form-control"></textarea>
+            <div class="error-message"></div>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="consentimiento"
+            />
+            <label class="form-check-label" for="consentimiento">
+              Acepto ser contactado(a).
+            </label>
+            <div class="error-message"></div>
+          </div>
+
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+
+        <!-- Mensaje general -->
+        <div id="formMessage" class="mt-3"></div>
+
+        <!-- Mensaje dinámico (error/éxito) -->
+        <div
+          id="formMessage"
+          class="mt-3"
+          role="status"
+          aria-live="polite"
+        ></div>
+
+        <p class="mt-3">
+          También puedes escribirme a
+          <a href="mailto:tu-email@ejemplo.cl">pame@gmail.com</a> o llamarme al
+          <a href="tel:+56912345678">+56 9 1234 5678</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer
+      role="contentinfo"
+      aria-labelledby="t-footer"
+      class="bg-dark text-white p-4 mt-5 border-top border-success border-4"
+    >
+      <h2 id="t-footer" class="sr-only">Pame</h2>
+
+      <section aria-label="Redes y enlaces profesionales" class="mb-3">
+        <ul
+          class="list-unstyled d-flex flex-wrap justify-content-center gap-3 p-0"
+        >
+          <li>
+            <a
+              href="https://www.linkedin.com/in/pamela-andrea-guti%C3%A9rrez-morales/"
+              target="_blank"
+              rel="noopener noreferrer me"
+              itemprop="sameAs"
+              aria-label="LinkedIn de Pamela A. Gutiérrez"
+              class="btn btn-outline-light btn-sm **text-light**"
+            >
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer me"
+              itemprop="sameAs"
+              aria-label="GitHub de Pamela A. Gutiérrez"
+              class="btn btn-outline-light btn-sm **text-light**"
+            >
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer me"
+              itemprop="sameAs"
+              aria-label="Perfil en X/Twitter"
+              class="btn btn-outline-light btn-sm **text-light**"
+            >
+              <i class="bi bi-twitter-x"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer me"
+              itemprop="sameAs"
+              aria-label="Instagram de Pamela A. Gutiérrez"
+              class="btn btn-outline-light btn-sm **text-light**"
+            >
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <nav aria-label="Navegación secundaria" class="text-center">
+        <ul
+          class="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 small"
+        >
+          <li>
+            <a href="#sobre-mi" class="text-white-50 text-decoration-none"
+              >Ir a “Sobre mí”</a
+            >
+          </li>
+          <li>
+            <a href="#proyectos" class="text-white-50 text-decoration-none"
+              >Ir a “Proyectos”</a
+            >
+          </li>
+          <li>
+            <a href="#habilidades" class="text-white-50 text-decoration-none"
+              >Ir a “Habilidades”</a
+            >
+          </li>
+          <li>
+            <a href="#contacto" class="text-white-50 text-decoration-none"
+              >Ir a “Contacto”</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-white-50 text-decoration-none"
+              >Volver arriba</a
+            >
+          </li>
+        </ul>
+        <p class="small text-success-subtle mb-0">
+          &copy; <time datetime="2025">2025</time> Portafolio de Pamela A.
+          Gutiérrez
+        </p>
+      </nav>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

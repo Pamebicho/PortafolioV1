@@ -1,0 +1,115 @@
+/*PORTAFOLIO PAMELA GUTIÉRREZ MORALES*/
+
+:root {
+  --verde-claro: #e6f4ea;
+  --verde-medio: #4caf50;
+  --verde-oscuro: #2e7d32;
+  --verde-suave: #81c784;
+  --gris: #444;
+  --blanco: #fff;
+  --fuente-base: "Inter", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuente-base);
+  color: var(--gris);
+  background-color: var(--verde-claro);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: var(--verde-oscuro);
+  color: var(--blanco);
+  padding: 0.5rem;
+  border-radius: 0 0 6px 0;
+  transition: top 0.3s;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+.pame-img {
+  object-fit: cover;
+  border: 3px solid var(--verde-medio);
+}
+
+.navbar-nav .nav-link.text-success:hover,
+.navbar-nav .nav-link.text-success:focus {
+  background-color: var(--verde-medio);
+  color: var(--blanco);
+  border-radius: 8px;
+}
+
+/* Mensajes de formulario */
+
+.error-message {
+  color: #b91c1c;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* Borde rojo cuando el campo está malo */
+.input-error {
+  border: 2px solid #b91c1c !important;
+}
+
+/* Mensaje de éxito general */
+#formMessage.success {
+  color: #065f46;
+  font-weight: 600;
+}
+
+#formMessage.error {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+meter {
+  background: var(--verde-claro);
+  border: 1px solid var(--verde-suave);
+  border-radius: 5px;
+}
+meter::-webkit-meter-optimum-value {
+  background: var(--verde-medio);
+}
+meter::-moz-meter-bar {
+  background: var(--verde-medio);
+}
+
+progress {
+  background: var(--verde-claro);
+  border: 1px solid var(--verde-suave);
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background: var(--verde-oscuro);
+}
+progress::-moz-progress-bar {
+  background: var(--verde-oscuro);
+}
+
+@media (min-width: 600px) {
+  .pame-img {
+    width: 200px;
+    height: 200px;
+  }
+}
